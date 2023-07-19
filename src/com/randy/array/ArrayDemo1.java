@@ -44,6 +44,11 @@ public class ArrayDemo1 {
     for (int i = 0; i < str.length; i++) {
       System.out.println(str[i]);
     }
+
+    // 能遍历数组
+    for (String s : str) {
+      System.out.println("增强for循环" + s);
+    }
   }
 
   public static void test5() {
